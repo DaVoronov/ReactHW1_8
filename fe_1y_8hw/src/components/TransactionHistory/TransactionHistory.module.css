@@ -1,0 +1,32 @@
+.style {
+  height: 50px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.transactionHistory {
+  background-color: black;
+  border: 2px black solid;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  composes: style;
+}
+
+.top {
+  composes: style;
+  color: white;
+  background-color: aqua;
+}
+
+.bottom {
+  composes: style;
+  background-color: rgb(216, 216, 216);
+  color: rgb(85, 85, 85);
+}
+
+.light {
+  background-color: white;
+}

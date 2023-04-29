@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  background: rgb(185, 185, 185);
+}
+
+.profile {
+  box-sizing: border-box;
+  width: 300px;
+  height: 320px;
+  border-radius: 4px;
+  padding-top: 30px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.description {
+  text-align: center;
+}
+
+.name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tag {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: grey;
+}
+
+.location {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+  justify-content: space-around;
+  padding: 15px 0px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgb(217, 217, 217);
+  width: 40px;
+  height: 40px;
+  padding: 29px;
+  margin: -16px;
+  transition: 0.4s;
+}
+
+.list:hover {
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.label {
+  color: rgb(103, 102, 102);
+  font-family: "Roboto";
+}
+
+.quantity {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+}
